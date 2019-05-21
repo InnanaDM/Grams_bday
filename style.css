@@ -6,7 +6,36 @@ h1 {
     text-align: center;
     font-weight: 800;
     color: white;
-    font-size: 40px;
+    font-size: 80px;
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+
     
+}
+
+@-webkit-keyframes glowing {
+    12.5% { background-color: #E51922; -webkit-box-shadow: 0 0 3px #B20000; }
+    25% { background-color: #F58800; -webkit-box-shadow: 0 0 3px #B20000; }
+    37.5% { background-color:  #FFF633; -webkit-box-shadow: 0 0 40px #FF0000; }
+    50% { background-color: #57E519; -webkit-box-shadow: 0 0 3px #B20000; }
+    62.5% { background-color:#3389FF; -webkit-box-shadow: 0 0 3px #B20000; }
+    75% { background-color: #8D00E5; -webkit-box-shadow: 0 0 3px #B20000; }
+    87.5% { background-color: #E51922; -webkit-box-shadow: 0 0 3px #B20000; }
+    100% { background-color: #F58800; -webkit-box-shadow: 0 0 3px #B20000; }
+  }
+
+
+p {
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    background-color: white;
+}
+
+.container {
+    background-color: white;
 }
 
