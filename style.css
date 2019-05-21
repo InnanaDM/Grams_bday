@@ -37,7 +37,36 @@ p {
    
 }
 
-.container {
-    background-color: white;
+button {
+    height: 45px;
+    background-color: #004A7F;
+    -webkit-border-radius: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 40px;
+    padding: 5px 10px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
 }
+
+@-webkit-keyframes glowing {
+    12.5% { background-color: #E51922; -webkit-box-shadow: 0 0 3px #B20000; }
+    25% { background-color: #F58800; -webkit-box-shadow: 0 0 3px #F58800; }
+    37.5% { background-color:  #FFF633; -webkit-box-shadow: 0 0 40px #FFF633; }
+    50% { background-color: #57E519; -webkit-box-shadow: 0 0 3px #57E519; }
+    62.5% { background-color:#3389FF; -webkit-box-shadow: 0 0 3px #3389FF; }
+    75% { background-color: #8D00E5; -webkit-box-shadow: 0 0 3px #8D00E5; }
+    87.5% { background-color: #E51922; -webkit-box-shadow: 0 0 3px #B20000; }
+    100% { background-color: #F58800; -webkit-box-shadow: 0 0 3px #F58800; }
+  }
+
 
